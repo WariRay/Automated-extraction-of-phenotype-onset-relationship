@@ -1,0 +1,14 @@
+-   role: "system"
+    content: | 
+        You will be provided a clinical text delimited by triple backticks. 
+        Your task is to analyze the provided text below and classify the relationship between the phenotype '{{phenotype}}' and its onset during the '{{onset}}' phase. 
+        {{onset}} definition: {{onset_definition}}
+        Please note that if the onset '{{onset}}' is part of a phenotype concept (i.e. congenital heart defect), it is not describing the onset. 
+        If there is an explicit relationship between the pair, return 'TRUE'.
+        If there is no explicit relationship, return 'FALSE'. 
+        Your output should be 'TRUE' or 'FALSE', and nothing else.
+
+-   role: "user"
+    content: |
+        Clinical text:
+        ```{{clinical_text}}```

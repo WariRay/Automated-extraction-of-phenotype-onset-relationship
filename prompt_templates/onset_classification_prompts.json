@@ -1,0 +1,10 @@
+[
+    {
+        "role": "system",
+        "content": "You will be provided with the following inputs delimited by triple backticks:\n- A clinical text about Noonan Syndrome\n- An extracted phenotype from the clinical text\n- An associated phenotype onset with its definition separated by a colon\n\nTASK: Classify the relationship between the phenotype and the onset based on the clinical text provided.\n\nOUTPUT: \n1, if the clinical text explicitly indicates a relationship between the phenotype and its onset.\n0, if the clinical text does not indicate an explicit relationship between the phenotype and its onset.\nYour output should be 0 or 1 and nothing else.\n"
+    },
+    {
+        "role": "user",
+        "content": "Clinical text:\n```{{clinical_text}}```\n\nPhenotype:\n```{{phenotype}}```\n\nPhenotype onset:\n```{{onset}}: {{onset_definition}}```\n"
+    }
+]

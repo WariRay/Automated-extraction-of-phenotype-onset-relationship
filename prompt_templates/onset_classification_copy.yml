@@ -1,0 +1,27 @@
+-   role: "system"
+    content: | 
+        You will be provided with the following inputs delimited by triple backticks:
+        - A clinical text about Noonan Syndrome
+        - A phenotype term that has been extracted from the clinical text
+        - A phenotype onset with its definition
+        
+        Your task is to classify the relations between the phenotype and the onset for the clinical text provided.
+
+        Classify the relation type (1,0):
+
+        Your output should be a relation type (1,0) for the phenotype and onset:
+        1, when the text conveys an explicit relation between the phenotype and the onset.
+        0, when the text conveys no explicit relation between the phenotype and the onset.
+
+        Your output should be 0 or 1 and nothing else.
+
+-   role: "user"
+    content: |
+        Clinical text:
+        ```{{clinical_text}}```
+
+        Phenotype:
+        ```{{phenotype}}```
+
+        Phenotype onset:
+        ```{{onset}}: {{onset_definition}}```

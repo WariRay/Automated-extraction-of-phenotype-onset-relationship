@@ -1,0 +1,26 @@
+tall forehead|neonatal|congenital
+widely spaced eyes|infantile|neonatal|congenital
+downslanted palpebral fissures|neonatal|congenital
+Low-set ears|neonatal|congenital
+posteriorly rotated ears|neonatal|congenital
+thickened helix|neonatal|congenital
+deeply grooved philtrum|neonatal|congenital
+high, wide peaks to the vermilion border of the upper lip|neonatal|congenital
+short neck|neonatal|congenital
+excess nuchal skin|neonatal|congenital
+low posterior hairline|neonatal|congenital
+prominent eyes|infantile
+horizontal palpebral fissures|infantile
+full upper eyelids|infantile
+droopiness of the upper eyelids|infantile
+depressed nasal bridge|infantile
+bulbous tip of nose|infantile
+facial appearance lacking in affect or expression|childhood
+inverted triangle facial shape|juvenile|early adult|interim early adult
+wide forehead|juvenile|early adult|interim early adult
+pointed chin|juvenile|early adult|interim early adult
+accentuated skin webbing|juvenile|early adult|interim early adult
+prominence of the trapezius muscle|juvenile|early adult|interim early adult
+prominent nasolabial folds|early adult|interim early adult|late early adult|mid age|late
+skin transparent|early adult|interim early adult|late early adult|mid age|late
+skin wrinkled|early adult|interim early adult|late early adult|mid age|late
